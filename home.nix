@@ -15,6 +15,7 @@
     # konsola
     pkgs.bat
     pkgs.eza
+    pkgs.fzf
     pkgs.btop
     pkgs.micro
     pkgs.yazi
