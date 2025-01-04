@@ -87,6 +87,7 @@
  	rebootsafe = "sudo shutdown -r now";
  	rebootforce = "sudo shutdown -r -n now";
  	shutdown = "sudo shutdown";
+ 	
 
  	home = "cd ~";
 
@@ -95,7 +96,8 @@
 
   # inne
   fastfetchplus = "fastfetch --config examples/2.jsonc";
-
+  wget = "wget --progress=dot:mega";
+  
   # nixowe
   cleanup = "sudo nix-collect-garbage; sudo nix-collect-garbage -d; sudo nixos-rebuild switch --flake ~/nix/#toster";
   rebuildnix = "sudo nixos-rebuild switch --flake ~/nix/#toster";
