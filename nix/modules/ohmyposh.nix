@@ -1,6 +1,6 @@
 { config, pkgs, ... }: 
 {
-	# Oh My Posh
+	# Oh My Posh - czyli uniwersalna konfiguracja motywow polowki
 	programs = {
 		oh-my-posh = {
 			enable = true;

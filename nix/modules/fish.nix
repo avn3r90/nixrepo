@@ -10,8 +10,6 @@
     plugins = [
       # Wbudowane pluginy z Nixpkgs
       { name = "grc"; src = pkgs.fishPlugins.grc.src; }
-      #{ name = "bobthefisher"; src = pkgs.fishPlugins.bobthefisher.src; }
-      # Nowe pluginy
       { name = "bass"; src = pkgs.fishPlugins.bass.src; }
       { name = "fzf"; src = pkgs.fishPlugins.fzf.src; }
 
