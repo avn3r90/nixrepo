@@ -26,9 +26,10 @@
     #pkgs.nix-search
     pkgs.nvd
     pkgs.nix-tree
-    #pkgs.thefuck
+    #pkgs.thefuck -> w modules/thefuck.nix
     pkgs.tldr
     pkgs.yadm
+    pkgs.wget
 
     # xfce
     pkgs.xfce.xfce4-battery-plugin
@@ -37,8 +38,8 @@
     pkgs.qogir-theme
 
     # inne z gui
-    pkgs.ghostty
-    #pkgs.kitty
+    #pkgs.ghostty 
+    pkgs.kitty
     pkgs.blueman
     pkgs.signal-desktop
     pkgs.thunderbird
