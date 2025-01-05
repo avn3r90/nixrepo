@@ -24,6 +24,7 @@
     pkgs.ncdu
     pkgs.nh
     #pkgs.nix-search
+    #pkgs.nix-output-monitor -> jest częścią nh
     pkgs.nvd
     pkgs.nix-tree
     #pkgs.thefuck -> w modules/thefuck.nix
@@ -100,7 +101,7 @@
   
   # nixowe
   cleanup = "sudo nix-collect-garbage; sudo nix-collect-garbage -d; sudo nixos-rebuild switch --flake ~/nix/#toster";
-  rebuildnix = "sudo nixos-rebuild switch --flake ~/nix/#toster";
+  #rebuildnix = "sudo nixos-rebuild switch --flake ~/nix/#toster";
   };
 
   #programs.starship = {

@@ -24,7 +24,7 @@
         #  system.activationScripts.report-changes = ''
         #    PATH=$PATH:${lib.makeBinPath [ pkgs.nix ]}
         #    echo "+++++ CHANGES +++++"
-        #    nix store diff-closures $(ls -dv /nix/var/nix/profiles/system-*-link/ | tail -2)
+        #    nix run nixpkgs#nvd diff $(ls -dv /nix/var/nix/profiles/system-*-link | tail -2)
         #  '';
         #})
       ];

@@ -16,7 +16,8 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
+  boot.loader.timeout = 2; 
+  
   # wlaczenie flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
