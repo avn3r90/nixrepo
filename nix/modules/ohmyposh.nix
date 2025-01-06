@@ -5,7 +5,7 @@
 		oh-my-posh = {
 			enable = true;
 			enableFishIntegration = true;
-			useTheme = "peru"; #paradox
+			useTheme = "peru"; #atomic #peru #paradox
 		};	
 	};
 }

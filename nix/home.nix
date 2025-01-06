@@ -8,6 +8,7 @@
 
   home.packages = [
     # konsola
+    pkgs.aria2
     pkgs.asciinema
     pkgs.bat
     pkgs.eza
@@ -25,12 +26,12 @@
     pkgs.nh
     #pkgs.nix-search
     #pkgs.nix-output-monitor -> jest częścią nh
-    pkgs.nvd
+    #pkgs.nvd
     pkgs.nix-tree
     #pkgs.thefuck -> w modules/thefuck.nix
     pkgs.tldr
     pkgs.yadm
-    pkgs.wget
+    #pkgs.wget
 
     # xfce
     pkgs.xfce.xfce4-battery-plugin
@@ -45,7 +46,7 @@
     pkgs.signal-desktop
     pkgs.thunderbird
     pkgs.kodi
-    pkgs.qbittorrent
+    #pkgs.qbittorrent
     #pkgs.stremio
     #pkgs.vlc
   ];
@@ -68,14 +69,14 @@
   };
   
   home.shellAliases = {
-  l = "eza -l --icons";
- 	lss = "eza --icons";
+  ls = "eza --icons"; # byl l
+ 	#lss = "eza --icons";
  	ll = "eza -la --icons";
  	ld = "eza -lD --icons";
  	cp = "cp -i";
  	mv = "mv -i";
  	mkdir = "mkdir -p";
- 	catt = "bat";
+ 	cat = "bat"; #byl catt
   grep = "grep --color=always";
   df = "df -h";
 
@@ -85,9 +86,9 @@
   ys = "yadm status";
 
   # restarty i wylaczanie
- 	rebootsafe = "sudo shutdown -r now";
- 	rebootforce = "sudo shutdown -r -n now";
- 	shutdown = "sudo shutdown";
+ 	#rebootsafe = "sudo shutdown -r now";
+ 	#rebootforce = "sudo shutdown -r -n now";
+ 	#shutdown = "sudo shutdown";
  	
 
  	home = "cd ~";
@@ -96,7 +97,7 @@
   suod = "sudo";
 
   # inne
-  fastfetchplus = "fastfetch --config examples/2.jsonc";
+  fastfetchplus = "fastfetch --config examples/7.jsonc";
   wget = "wget --progress=dot:mega";
   
   # nixowe
